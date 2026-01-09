@@ -47,7 +47,7 @@
    background: url(../images/background.png);
    background-repeat: no-repeat;
    margin: 0 auto;
-   height: 1600px;
+   height: 674px;
    width: 1600px ;
 }
 
@@ -104,6 +104,7 @@
     padding: 16px;
     border-radius: 4px;
     background-color: #469165;
+    cursor: pointer;
 }
 
 .hero-container .btn-group .btn-3{
@@ -115,4 +116,122 @@
     padding: 16px;
     border-radius: 4px;
     background:none;
+    cursor: pointer;
+}
+
+.card-heading{
+   margin: 30px 350px;
+   max-width: 1360px;
+   margin-bottom: 44px;
+}
+
+.card-heading h2{
+    font-size: 48px;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.card-heading p{
+    font-size: 16px;
+    color: #627382;
+    line-height: 20px;
+}
+
+.card-info{
+   display: flex; 
+   align-items: center; 
+   justify-content: space-around;
+   /* gap: 24px; */
+   margin-bottom: 120px;
+   margin: 0 30px;
+}
+.card{
+   border-radius: 8px;
+   background: rgba(255, 255, 255, 1);
+   box-shadow: 0 0 8px 0 #000000;
+   /* border: 1px solid black; */
+   width: 322px;
+   height: 300px;
+   padding: 24px;
+   line-height: 24px;
+   gap: 16;
+}
+
+.card img{
+    margin: 50px 95px;
+    margin-bottom: 16px;
+}
+
+.card h3{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    color: #001931;
+    margin: 5px 30px;
+}
+
+.card p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin:5px 5px;
+    margin-bottom: 69px;
+}
+
+/* design  */
+
+.design-container{
+    display: flex;
+    gap: 60px;
+    margin: 0 120px;
+    margin-top: 120px;
+    /* max-width: 1360px; */
+}
+
+.design img{
+    width: 600px;
+    height: 600px;
+}
+
+.design-info{
+    margin: 50px 40px;
+}
+
+.design-info h5{
+    font-size: 16px;
+    font-weight: 500;
+    color: #469165;
+    margin-bottom: 16px;
+}
+
+.design-info h1{
+    font-size: 48px;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.design-info p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 40px;
+    max-width: 700px;
+}
+
+.design-footer div{ 
+    display: flex;
+    gap: 6px;
+    line-height: 0 20px;
+    width: 700px;
+}
+
+.design-footer img{
+    height: 20px;
+    width: 20px;
+}
+.design-footer p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #001931;
+
 }
